@@ -1,0 +1,61 @@
+.advantages {
+    padding-top: 94px;
+}
+
+
+.advantages-list {
+    display: flex;
+    margin-left: -30px;
+}
+
+.advantages-list__item {
+    flex-basis: calc((100% - 90px) / 4);
+    margin-left: 30px;
+    
+    &::before {
+        display: block;
+        height: 120px;
+        margin-bottom: 30px;
+        background-size: 70px 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #F5F4FA;
+        content: "";
+    }
+}
+
+.advantages-list__icon-antena::before {
+    content: "";
+    background-image: url(../images/antena.svg);
+}
+
+.advantages-list__icon-clock::before {
+    content: "";
+    background-image: url(../images/clock\ 1.svg);
+}
+
+.advantages-list__icon-vector::before {
+    content: "";
+    background-image: url(../images/vector.svg);
+}
+
+.advantages-list__icon-astronaut::before {
+    content: "";
+    background-image: url(../images/astronaut\ 1.svg);
+}
+
+.advantages-list__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.advantages-list__desc {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-dark);
+}

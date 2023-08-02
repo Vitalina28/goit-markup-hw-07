@@ -1,0 +1,26 @@
+:root {
+    --primare-font-family: 'Roboto', sans-serif;
+    --second-font-family: 'Raleway', sans-serif;
+    --primare-text-color-theme-dark: #212121;
+    --secondary-text-color-theme-dark: #757575;
+    --primare-text-color-theme-light: #ffffff;
+    --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --part-logo-color: #000000;
+    --first-decoration-backgraund: #2F303A;
+    --second-decoration-backgroend: #F5F4FA;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

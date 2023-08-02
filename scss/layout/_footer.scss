@@ -1,0 +1,103 @@
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--first-decoration-backgraund);
+}
+
+.logo__part-second {
+    color: var(--primare-text-color-theme-light);
+}
+
+.contact-info {
+    margin-top: 28px;
+    margin-right: 70px;
+}
+
+.contact-info__address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+    color: var(--primare-text-color-theme-light);
+}
+
+.info-list__mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+    transition: color 250ms var(--cubic);
+
+    &:hover,
+    &:focus {
+        color: var(--primare-text-color-theme-light);
+    }
+}
+
+.info-list:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.info-list__number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+    transition: color 250ms var(--cubic);
+
+    &:hover,
+    &:focus {
+        color: var(--primare-text-color-theme-light);
+    }
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.social {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primare-text-color-theme-light);
+    margin-bottom: 20px;
+}
+
+.social-list__item:not(:last-child) {
+    margin-right: 10px;
+
+}
+
+.social-list__link-join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms var(--cubic);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
+}
+
+
+
+.social-list__icon-join {
+    fill: #ffffff;
+}
